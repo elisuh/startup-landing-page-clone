@@ -14,6 +14,11 @@ div {
 .top-navigation .content {
 	pading: 0px 15px;
 }
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
