@@ -42,15 +42,12 @@ div {
     color: #333333;
 }
 .intro {
+	background-image: url('../images/first-background copy.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
   	overflow: auto;
   	height: 45.938rem;
-}
-.karmabg {
-	position: relative;
-	width: 100%; /* for IE 6 */
 }
 .welcome {
 	position: absolute;
@@ -58,3 +55,16 @@ div {
 	left: 150px;
 	font-size: 6em;
 }
+h1 h3 {
+	font-color: white;
+}
+
+.button {
+ 
+   }
+.button:hover {
+   background: #ff6708;
+   }
+.button:active {
+   background: #f79e31;
+   }
