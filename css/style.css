@@ -39,7 +39,8 @@ div {
     cursor: pointer;
     color: #333333;
 }
-.middle {
+.intro {
+	background-image: url(images/first-background copy.jpg);
 	background-position: fixed;
 	background-size: cover;
 	 padding: 6em 0;
