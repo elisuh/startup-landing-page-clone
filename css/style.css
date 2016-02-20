@@ -13,11 +13,13 @@ div {
 }
 .top-navigation .content {
 	pading: 0px 15px;
+	 width: 970px;
+	 margin:0 auto;
 }
 .top-navigation > .content {
     width: 970px;
     height: 70px;
-    margin: 0 auto;
+    margin:0 auto;
 }
 .top-navigation .links {
     float: right;
@@ -44,6 +46,7 @@ div {
 	background-repeat: no-repeat;
 	background-size: cover;
   	overflow: auto;
+  	height: 45.938rem;
 }
 .karmabg {
 	position: relative;
