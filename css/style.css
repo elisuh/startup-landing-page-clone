@@ -9,6 +9,9 @@ body {
     background-color: LightGray;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    display: block;
+    margin: 8px;
 }
 div {
     border: 1px solid Chocolate;
@@ -72,4 +75,8 @@ button:active {
 	background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
+}
+.description .icons {
+	display: inline-block;
+	box-sizing: border-box;
 }
