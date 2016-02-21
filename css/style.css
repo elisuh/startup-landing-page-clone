@@ -17,6 +17,12 @@ div {
     border: 1px solid Chocolate;
 }
 
+.top-navigation {
+	position: fixed;
+	width: 100%
+	z-index: 9999;
+}
+
 .top-navigation .content {
 	padding: 0px 15px;
 	 width: 970px;
@@ -79,4 +85,7 @@ button:active {
 .description .icons {
 	display: inline-block;
 	box-sizing: border-box;
+	width: 33.3333333%;
+	height: 4em;
+	display: flex;
 }
