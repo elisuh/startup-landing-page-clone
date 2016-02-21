@@ -7,12 +7,15 @@ html {
 
 body {
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 div {
     border: 1px solid Chocolate;
 }
+
 .top-navigation .content {
-	pading: 0px 15px;
+	padding: 0px 15px;
 	 width: 970px;
 	 margin:0 auto;
 }
@@ -41,23 +44,27 @@ div {
     cursor: pointer;
     color: #333333;
 }
-.button {
+button {
 	background-color: orange;
  	border-radius: 4px;
  	font-size: 16px;
  	border: none;
+ 	margin:0 auto;
    }
- .button:hover {
+ button:hover {
    background: #ff6708;
    }
-.button:active {
+button:active {
    background: #f79e31;
    }
 .intro {
 	background-image: url('../images/first-background copy.jpg');
-	background-position: center bottom;
+	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
   	overflow: auto;
-  	height: 45.938rem;
+  	height: 580px;
+  	padding: 0px 15px;
+	margin:0 auto;
+	text-align: center;
 }
