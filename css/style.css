@@ -18,8 +18,10 @@ div {
 }
 
 .top-navigation {
+	background-color: #fff;
 	position: fixed;
 	width: 100%
+	border-bottom: 1px solid #DDD;
 	z-index: 9999;
 }
 
@@ -66,16 +68,25 @@ button {
 button:active {
    background: #f79e31;
    }
+ section.intro {
+   	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+   }
 .intro {
 	background-image: url('../images/first-background copy.jpg');
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-align: center;
   	overflow: auto;
   	height: 580px;
   	padding: 0px 15px;
 	margin:0 auto;
-	text-align: center;
 }
 .description {
 	background-color: #fff;
@@ -88,4 +99,13 @@ button:active {
 	width: 33.3333333%;
 	height: 4em;
 	display: flex;
+}
+.social .content > li {
+	display: inline-block;
+}
+.social {
+	width: 970px;
+    height: 200px;
+	margin:0 auto;
+	padding: 0px 15px;
 }
