@@ -41,6 +41,18 @@ div {
     cursor: pointer;
     color: #333333;
 }
+.button {
+	background-color: orange;
+ 	border-radius: 4px;
+ 	font-size: 16px;
+ 	border: none;
+   }
+ .button:hover {
+   background: #ff6708;
+   }
+.button:active {
+   background: #f79e31;
+   }
 .intro {
 	background-image: url('../images/first-background copy.jpg');
 	background-position: center bottom;
@@ -49,22 +61,3 @@ div {
   	overflow: auto;
   	height: 45.938rem;
 }
-.welcome {
-	position: absolute;
-	top: 350px;
-	left: 150px;
-	font-size: 6em;
-}
-h1 h3 {
-	font-color: white;
-}
-
-.button {
- 
-   }
-.button:hover {
-   background: #ff6708;
-   }
-.button:active {
-   background: #f79e31;
-   }
