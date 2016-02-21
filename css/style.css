@@ -68,3 +68,8 @@ button:active {
 	margin:0 auto;
 	text-align: center;
 }
+.description {
+	background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
