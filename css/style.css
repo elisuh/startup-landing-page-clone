@@ -98,7 +98,7 @@ button:active {
     overflow: hidden;
     padding-bottom: 5rem;
 }
-.description .cases .icon {
+.description .cases .caseicon {
 	display: inline-block;
 	box-sizing: border-box;
 	width: 33.3333333%;
