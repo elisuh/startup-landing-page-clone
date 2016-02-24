@@ -24,13 +24,13 @@ div {
 .top-navigation {
 	background-color: #fff;
 	position: fixed;
-	width: 100%
+	width: 100%;
 	border-bottom: 1px solid #DDD;
 	z-index: 9999;
 }
 .top-navigation .content {
 	padding: 0px 75px;
-	 width: 970px;
+	 width: 1070px;
 	 margin:0 auto;
 }
 .top-navigation > .content {
@@ -101,6 +101,7 @@ section.intro {
     padding-bottom: 5rem;
 }
 .cases {
+	text-align: center;
 	background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
@@ -119,9 +120,13 @@ section.intro {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
     box-sizing: border-box;
-    height: 4em;
 	display: flex;
 }
 .cases ul {
