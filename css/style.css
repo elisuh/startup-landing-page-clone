@@ -19,6 +19,10 @@ div {
 h1 h3 {
   color: #FFF;
 }
+.logo {
+	margin-left: 14px;
+	height: 70px;
+}
 .top-navigation {
 	background-color: #fff;
 	position: fixed;
@@ -26,7 +30,6 @@ h1 h3 {
 	border-bottom: 1px solid #DDD;
 	z-index: 9999;
 }
-
 .top-navigation .content {
 	padding: 0px 75px;
 	 width: 970px;
