@@ -58,20 +58,6 @@ div {
   cursor: pointer;
   color: #333333;
 }
-button {
-	background-color: orange;
- 	border-radius: 4px;
- 	font-size: 16px;
- 	border: none;
- 	margin:0 auto;
-   }
-button:hover {
-   background: #ff6708;
-   }
-button:active {
-   background: #f79e31;
-   }
-
 .intro {
 	background-image: url('../images/first-background copy.jpg');
 	background-position: 0 bottom;
@@ -83,6 +69,29 @@ button:active {
   	padding: 0px 1px;
 	margin:0 auto;
 }
+.intro .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+button {
+	width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 300;
+   }
+button:hover {
+   background: #ff6708;
+   }
+button:active {
+   background: #f79e31;
+   }
 .intro h1, .intro h3 {
 	color: #FFF;
     text-align: center;
@@ -118,7 +127,6 @@ button:active {
     margin: 2.5rem 0px 1.875rem;
 }
 .cases .devices .content {
-    width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
     margin: 0;
@@ -132,6 +140,10 @@ button:active {
 }
 .cases ul {
     list-style: none;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
 }
 .social .content li {
 	display: inline-block;
