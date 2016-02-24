@@ -110,8 +110,12 @@ section.intro {
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
 }
-.cases .devices .caseicon {
-	text-align: center;
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+.cases .devices .content {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
@@ -119,6 +123,9 @@ section.intro {
     box-sizing: border-box;
     height: 4em;
 	display: flex;
+}
+.cases ul {
+    list-style: none;
 }
 .social .content li {
 	display: inline-block;
