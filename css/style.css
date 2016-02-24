@@ -16,7 +16,9 @@ body {
 div {
     border: 1px solid Chocolate;
 }
-
+h1 h3 {
+  color: #FFF;
+}
 .top-navigation {
 	background-color: #fff;
 	position: fixed;
@@ -26,7 +28,7 @@ div {
 }
 
 .top-navigation .content {
-	padding: 0px 15px;
+	padding: 0px 75px;
 	 width: 970px;
 	 margin:0 auto;
 }
@@ -52,8 +54,8 @@ div {
     font-weight: 500;
 }
 .top-navigation .links li:hover {
-    cursor: pointer;
-    color: #333333;
+  cursor: pointer;
+  color: #333333;
 }
 button {
 	background-color: orange;
@@ -62,7 +64,7 @@ button {
  	border: none;
  	margin:0 auto;
    }
- button:hover {
+button:hover {
    background: #ff6708;
    }
 button:active {
@@ -70,7 +72,7 @@ button:active {
    }
  section.intro {
    	margin: 0;
-    padding: 0;
+    padding:8em;
     border: 0;
     font-size: 100%;
     font: inherit;
@@ -83,9 +85,9 @@ button:active {
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
-  	overflow: auto;
-  	height: 580px;
-  	padding: 0px 15px;
+  overflow: auto;
+  height: 580px;
+  padding: 0px 15px;
 	margin:0 auto;
 }
 .description {
@@ -93,19 +95,26 @@ button:active {
     overflow: hidden;
     padding-bottom: 5rem;
 }
-.description .cases {
+.description .cases .icon {
 	display: inline-block;
 	box-sizing: border-box;
 	width: 33.3333333%;
 	height: 4em;
 	display: flex;
 }
-.social .content > li {
+.social .content li {
 	display: inline-block;
 }
 .social {
+  text-align: center;
 	width: 970px;
-    height: 200px;
+  height: 200px;
 	margin:0 auto;
 	padding: 0px 15px;
+}
+hr {
+   border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
